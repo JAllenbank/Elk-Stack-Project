@@ -117,7 +117,9 @@ SSH into the control node and follow the steps below:
 - Scroll to the bottom and click on Verify Incoming Data.
 - If the ELK stack was successfully receiving logs, you would have seen:
 
-![TODO: Update the path with the name of your screenshot of ELK Filebeat](https://github.com/JAllenbank/Elk-Stack-Project/blob/a75f5911c1c0c7668d55b5a3737905c087eb4dec/images/filebeatdash.png)
+![TODO: Update the path with the name of your screenshot of ELK Filebeat](https://github.com/JAllenbank/Elk-Stack-Project/blob/9f9b818f552223709c2984021a4ae3d2b6800ddb/images/filebeatgettingdata.png)
+
+- Repeat the steps for the Metricbeat
 
 - Copy the metricbeat-configuration.yml file to /etc/ansible/files.
 
