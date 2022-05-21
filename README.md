@@ -89,9 +89,8 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- SSH into the ELK Container ssh ansible@10.0.0.12 for my setup
+- SSH into the ELK Container ssh ansible@10.1.0.4 for my setup
 - Run docker container list -a to verify that the container is on.
-- If it isn't, run docker start sebp/elk.
 - Exit the ELK Container
 - Navigate to (Your IP Address):5601 from your web browser.
 - Open your ELK server homepage
