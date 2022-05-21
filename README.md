@@ -66,7 +66,7 @@ The playbook implements the following tasks:
 - Install Python-pip
 - Increase Virtual Memory
 - Download and Launch ELK Docker Container (image sebp/elk)
-- Published ports 5044, 5601 and 9200 were made available 
+- Published ports 5601 and 9200 were made available 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
