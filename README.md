@@ -127,8 +127,8 @@ SSH into the control node and follow the steps below:
 
 [Metricbeat Playbook](https://github.com/JAllenbank/Elk-Stack-Project/blob/2b06215a4e5b07925002217e1f2b0a9acd93be02/Ansible/Metricbeat-playbook.yml)
 
-- Scroll to line #1106 and replace the IP address with the IP address of your ELK machine, 10.0.0.12 for the purposes of my setup.
-- Scroll to line #1806 and replace the IP address with the IP address of your ELK machine, 10.0.0.12 for the purposes of my setup.
+- Scroll to line #1106 and replace the IP address with the IP address of your ELK machine, 10.1.0.4 for the purposes of my setup.
+- Scroll to line #1806 and replace the IP address with the IP address of your ELK machine, 10.1.0.4 for the purposes of my setup.
 
 - Run ansible-playbook metricbeat-configuration.yml
 - To verify that your play works as expected, on the Metricbeat installation page in the ELK server GUI, scroll to Step 5: Module Status and click Check Data.
