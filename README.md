@@ -107,8 +107,8 @@ SSH into the control node and follow the steps below:
 
 [Filebeat Configuration](https://github.com/JAllenbank/Elk-Stack-Project/blob/28440d7f383aa6dc6558beb7d72d0e9fb7f2cc9a/Ansible/Filebeatconfig.txt)
 
-- Scroll to line #1106 and replace the IP address with the IP address of your ELK machine, 10.0.0.12 for the purposes of my setup.
-- Scroll to line #1806 and replace the IP address with the IP address of your ELK machine, 10.0.0.12 for the purposes of my setup.
+- Scroll to line #1106 and replace the IP address with the IP address of your ELK machine, 10.1.0.4 for the purposes of my setup.
+- Scroll to line #1806 and replace the IP address with the IP address of your ELK machine, 10.1.0.4 for the purposes of my setup.
 - Run the playbook with ansible-playbook filebeat-configuration.yml.
 - Next, confirm that the ELK stack was receiving logs. 
 - Navigate back to the Filebeat installation page on the ELK server GUI.
